@@ -37,7 +37,9 @@ a2=sc[1]+0.1;a2;b2=sc[2]+0.2;b2
 lower1=min(S31)/10;lower1
 lower2=min(S32)/10;lower2
 
-#------------------------MLE CALCULATION------------------------------#
+#=====================================================================#
+#                           MLE CALCULATION
+#=====================================================================#
 m.thh1=m.thh2=m.thh3=m.thh4=m.thh5=m.thh6=rep()
 m.th1=a1;m.th2=b1;m.th3=0.5;m.th4=a2;m.th5=b2;m.th6=0.25
 it=150
@@ -259,7 +261,10 @@ mn2=aa*ml[5]^(-1/ml[4])*gamma(1+1/ml[4]);mn2
 md1=aa*ml[2]^(-1/ml[1])*(log(2))^(1/ml[1]);md1 
 md2=aa*ml[5]^(-1/ml[4])*(log(2))^(1/ml[4]);md2 
 
-#---------------------------------ACI CALCULATION----------------------------------------------#
+#===========================================================================#
+#
+#                                  ACI Calculation
+#============================================================================#
 #Expected Values
 ddd1=exp(-ml[2]*(lower1^ml[1]))-exp(-ml[2]*(S31^ml[1]));ddd1  # Denominator 1
 ddd2=exp(-ml[5]*(lower2^ml[4]))-exp(-ml[5]*(S32^ml[4]));ddd2  # Denominator 2
@@ -545,8 +550,11 @@ ACI_L=c(l1,l2,l3,l4,l5,l6);ACI_L
 
 se=c(sqrt(diag(Var_Cov)[1]),sqrt(diag(Var_Cov)[2]),sqrt(diag(Var_Cov)[3]),sqrt(diag(Var_Cov)[4]),sqrt(diag(Var_Cov)[5]),sqrt(diag(Var_Cov)[6]));se
 
-#-----------------------------Bayesian Estimation------------------------#
-#hyper-parameters
+#===================================================================================#
+#
+#               Bayesian Estimations
+#====================================================================================#
+#Define hyper-parameters
 mu1=mu2=mu3=mu4=mu5=mu6=0.11;nu1=1/mu1;nu2=1/mu2;
 nu3=1/mu3;nu4=1/mu4;nu5=1/mu5;nu6=1/mu6
 b.thh1=b.thh2=b.thh3=b.thh4=b.thh5=b.thh6=rep()
