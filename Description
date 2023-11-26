@@ -20,7 +20,7 @@
 
 This code should run on all platforms. The code was tested with the following configuration:
 
-    R version 4.2.1 (2022-06-23)
+    R version 4.2.1 (2022-11-21)
     
 
 ########################################
@@ -31,14 +31,18 @@ This code should run on all platforms. The code was tested with the following co
   -----------
   This file.
 
-* Real Data Estimates.R File:
-  ----------------------
-
-  The R code file is used to calculate the estimates for real data. 
-
 * Real Data Fitting.R File:
   ----------------------
   — The R code file is used to check the fitting of Weibull distribution using Modified Chi-square approach.  
+
+* Real Data Estimates_Cause Unknown.R File:
+  ----------------------
+  The R code file is used to calculate the estimates for real data when time and causes are assumed to be unknown. 
+
+* Real Data Estimates_Cause Known.R File:
+  ----------------------
+  The R code file is used to calculate the estimates for real data when time is unknown but the causes are assumed to be known. 
+
 
 * Simulation Study.R File:
   ----------------------
