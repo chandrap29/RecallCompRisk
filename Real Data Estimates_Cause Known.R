@@ -251,7 +251,7 @@ par(mfrow=c(2,3))
 plot(m.thh1,type='l');plot(m.thh2,type='l');plot(m.thh3,type='l');plot(m.thh4,type='l');plot(m.thh5,type='l');plot(m.thh6,type='l')
 
 #ML Estimates after final iterations
-ml=c(m.thh1[it],m.thh2[it],m.thh3[it],m.thh4[it],2+m.thh5[it],m.thh6[it]);ml
+ml=c(m.thh1[it],m.thh2[it],m.thh3[it],m.thh4[it],m.thh5[it],m.thh6[it]);ml
 
 # Mean duration associated with causes
 mn1=aa*ml[2]^(-1/ml[1])*gamma(1+1/ml[1]);mn1 
@@ -611,7 +611,7 @@ b.thh1;b.thh2;b.thh3;b.thh4;b.thh5;b.thh6
 length(b.thh1);length(b.thh2);length(b.thh3);length(b.thh4);length(b.thh5);length(b.thh6)
 
 #discard first few values 
-ch1=b.thh1[10001:it1];ch2=b.thh2[10001:it1];ch3=b.thh3[10001:it1];ch4=b.thh4[10001:it1];ch5=2+b.thh5[10001:it1];ch6=b.thh6[10001:it1]
+ch1=b.thh1[10001:it1];ch2=b.thh2[10001:it1];ch3=b.thh3[10001:it1];ch4=b.thh4[10001:it1];ch5=b.thh5[10001:it1];ch6=b.thh6[10001:it1]
 
 #checking ACF
 acf(ch1);acf(ch2);acf(ch3);acf(ch4);acf(ch5);acf(ch6)
