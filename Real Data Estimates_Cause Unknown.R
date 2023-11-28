@@ -257,7 +257,7 @@ par(mfrow=c(2,3))
 #plot(m.thh1,type='l');plot(m.thh2,type='l');plot(m.thh3,type='l');plot(m.thh4,type='l');plot(m.thh5,type='l');plot(m.thh6,type='l')
 
 #Final MLE
-ml=c(m.thh1[it],m.thh2[it],m.thh3[it],m.thh4[it],2+m.thh5[it],m.thh6[it]);ml
+ml=c(m.thh1[it],m.thh2[it],m.thh3[it],m.thh4[it],m.thh5[it],m.thh6[it]);ml
 
 # Mean duration 
 mn1=aa*ml[2]^(-1/ml[1])*gamma(1+1/ml[1]);mn1 # mean age of natural menopause
