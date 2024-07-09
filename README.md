@@ -3,7 +3,7 @@
 ################################################################################
 ## README accompanying the publication
 ##
-##   A multilevel latent variable approach for the analysis of recall-based competing risk data
+##   Estimation from Recall-Based Competing Risk Data: A Multilevel Framework
 ##
 ##   by M. S. Panwar, Sanjeev K. Tomer and C. P. Yadav
 ##
