@@ -3,7 +3,7 @@
 ################################################################################
 ## README accompanying the publication
 ##
-##   A multilevel latent variable approach for the analysis of recall-based competing risk data
+##   Title: A Multilevel Approach for Estimating Menopause Duration using Recall Data
 ##
 ##   by M. S. Panwar, Sanjeev K. Tomer and C. P. Yadav
 ##
@@ -30,6 +30,11 @@ This code should run on all platforms. The code was tested with the following co
 * README.txt:
   -----------
   This file.
+
+* Online Supplementary Materials.pdf File:
+  ----------------------
+  — This is online supplement for two causes setup.  
+
 
 * Real Data Fitting.R File:
   ----------------------
