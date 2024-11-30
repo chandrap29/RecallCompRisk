@@ -3,7 +3,7 @@
 ################################################################################
 ## README accompanying the publication
 ##
-##   Estimation from Recall-Based Competing Risk Data: A Multilevel Framework
+##   A Multilevel Approach for Estimating Menopause Duration using Recall Data
 ##
 ##   by M. S. Panwar, Sanjeev K. Tomer and C. P. Yadav
 ##
@@ -33,7 +33,12 @@ This code should run on all platforms. The code was tested with the following co
 
 * Real Data Fitting.R File:
   ----------------------
-  — The R code file is used to check the fitting of Weibull distribution using Modified Chi-square approach.  
+  — The R code file is used to check the fitting of Weibull distribution using Modified Chi-square approach.
+
+* Online Supplementary Materials.pdf File:
+  ----------------------
+  — The online materials for two causes setup.
+ 
 
 * Real Data Estimates_Cause Unknown.R File:
   ----------------------
