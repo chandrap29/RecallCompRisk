@@ -560,8 +560,7 @@ se=c(sqrt(diag(Var_Cov)[1]),sqrt(diag(Var_Cov)[2]),sqrt(diag(Var_Cov)[3]),sqrt(d
 #
 #=========================================================================#
 #define hyper-parameter 
-mu1=mu2=mu3=mu4=mu5=mu6=0.11;nu1=1/mu1;nu2=1/mu2;
-nu3=1/mu3;nu4=1/mu4;nu5=1/mu5;nu6=1/mu6
+mu1=mu2=mu3=mu4=mu5=mu6=1;nu1=nu2=nu3=nu4=nu5=nu6=0.0001
 b.thh1=b.thh2=b.thh3=b.thh4=b.thh5=b.thh6=rep()
 b.th1=b.th2=b.th3=b.th4=b.th5=b.th6=rep()
 b.th1=ml[1];b.th2=ml[2];b.th3=ml[3];b.th4=ml[4];b.th5=ml[5];b.th6=ml[6]
