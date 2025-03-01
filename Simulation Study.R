@@ -448,13 +448,13 @@ ff=function(){
   #===========================================================================#
   
   #Define Hyper-parameters
-  mu1=mu2=mu3=mu4=mu5=mu6=2;
-  nu1=mu1/alp1;nu1
-  nu2=mu2/bet1;nu2
-  nu3=mu3/lmd1;nu3
-  nu4=mu4/alp2;nu4
-  nu5=mu5/bet2;nu5
-  nu6=mu6/lmd2;nu6
+  mu1=mu2=mu3=mu4=mu5=mu6=1;
+  nu1=0.001;nu1
+  nu2=0.001;nu2
+  nu3=0.001;nu3
+  nu4=0.001;nu4
+  nu5=0.001;nu5
+  nu6=0.001;nu6
   b.thh1=b.thh2=b.thh3=b.thh4=b.thh5=b.thh6=rep()
   it1=35000 #iterations
   for(j in 1:it1){
