@@ -3,14 +3,14 @@
 ################################################################################
 ## README accompanying the publication
 ##
-##   A Multilevel Approach for Estimating Menopause Duration using Recall Data
+##   Multilevel Approach to Estimate Menopause Duration from Recall Data
 ##
 ##   by M. S. Panwar, Sanjeev K. Tomer and C. P. Yadav
 ##
 ## Corresponding author: C. P. Yadav <chandraprakashy29@gmail.com>
 ## Author of the code: C. P. Yadav
 ##
-## Copyright: 2023 C. P. Yadav (Code)
+## Copyright: 2025 C. P. Yadav (Code)
 ##
 ################################################################################
 
